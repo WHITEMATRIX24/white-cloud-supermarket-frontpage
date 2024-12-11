@@ -178,7 +178,7 @@ p {
 
 .main-btn:hover {
   color: #fff;
-  box-shadow: 5px 5px 2px rgba(232, 80, 91, 0.45);
+  box-shadow: 5px 5px 2px #52c1c0;
 }
 
 .btn-hover {
@@ -1670,7 +1670,7 @@ p {
 }
 
 .about-section .about-content .counter-up {
-  background: #e8505b;
+  background: #2e2c79;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -1902,8 +1902,8 @@ p {
 }
 
 .footer .footer-widget .download-btns a:hover {
-  background: #e8505b;
-  border-color: #e8505b;
+  background: #2e2c79;
+  border-color: #52c1c0;
 }
 
 .footer .footer-widget .download-btns a .icon {
