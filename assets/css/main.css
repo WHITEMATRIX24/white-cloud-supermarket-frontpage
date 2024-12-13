@@ -1,9 +1,8 @@
-/*===========================
-    01.COMMON css 
-===========================*/
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Heebo:wght@300;400;500;600;700&display=swap");
 html {
   scroll-behavior: smooth;
+  height: fit-content;
+  overflow-x: hidden;
 }
 
 body {
@@ -12,6 +11,7 @@ body {
   font-style: normal;
   color: #676f73;
   overflow-x: hidden;
+  height: fit-content;
 }
 
 * {
@@ -68,7 +68,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Fira Sans", sans-serif;
+  /* font-family: "Fira Sans", sans-serif; */
   font-weight: 700;
   margin: 0px;
   color: #263238;
@@ -208,7 +208,7 @@ p {
 .scroll-top {
   width: 45px;
   height: 45px;
-  background: #e8505b;
+  background: #2e2c79;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,7 +225,7 @@ p {
 
 .scroll-top:hover {
   color: #fff;
-  background: rgba(232, 80, 91, 0.8);
+  background: #2e2c79;
 }
 
 @keyframes animation1 {
@@ -325,7 +325,7 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #e8505b #e8505b #ddd;
+  border-color: #2e2c79 #2e2c79 #ddd;
   border-radius: 50%;
   border-width: 6px;
 }
@@ -1974,4 +1974,21 @@ p {
   font-style: normal;
   color: #010909;
   font-variation-settings: wdth 100;
+}
+.navbar-nav a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  transition: all 0.3s ease-out 0s;
+  padding: 10px;
+  position: relative;
+}
+
+.nav-item2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fbfeff;
+  transition: all 0.3s ease-out 0s;
+  padding: 10px 12px;
+  position: relative;
 }
